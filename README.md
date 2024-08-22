@@ -68,4 +68,7 @@ O cliente solicitará que você pressione qualquer tecla para iniciar a conversa
   - Opção 2: Exibe o valor da fatura atual.
   - Opção 3: Retorna ao menu inicial.
 
+## Colaboradores do Projeto
 
+- Victor Boaventura Souza Muniz
+- Igor Nogueira Olivio
