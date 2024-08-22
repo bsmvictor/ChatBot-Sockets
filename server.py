@@ -80,8 +80,7 @@ while True:
 
         elif estado_atual == ENCERRAR:
             resposta = "\n\tEncerrando o chat. Obrigado!"
-            # Depois de encerrar, pode-se opcionalmente limpar o estado do cliente
-            # del chats[EnderecoCliente]
+            SocketServidor.close()
 
         # Envia a resposta ao cliente
         SocketServidor.sendto(resposta.encode('utf-8'), EnderecoCliente)
